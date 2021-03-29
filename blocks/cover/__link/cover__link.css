@@ -1,0 +1,43 @@
+.cover__link {
+  position: relative;
+  text-decoration: none;
+  display: block;
+  padding: 245px 312px;
+  background-image: url('../../../images/__background.jpg');
+  background-size: 100% 100%;
+  z-index: 1;
+}
+
+.cover__link:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2a2c2f;
+  opacity: .3;
+  z-index: -1;
+}
+
+.cover__link:hover::after {
+  opacity: .8;
+}
+
+@media (max-width: 1024px) {
+  .cover__link {
+    padding: 195px 232px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__link {
+    padding: 115px 104px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__link {
+    padding: 33px 16px;
+  }
+}
