@@ -5,20 +5,14 @@
   color: #fff;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-@media (max-width: 768px) {
-  .cover {
-    padding-top: 90px;
-  }
-}
-
-@media (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .cover {
     padding-top: 66px;
   }

@@ -8,14 +8,14 @@
   grid-template-columns: repeat(1, 1fr);
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .places {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .places {
     padding-left: 0;
     padding-right: 0;
