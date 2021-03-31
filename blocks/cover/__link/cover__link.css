@@ -4,7 +4,8 @@
   display: block;
   padding: 245px 312px;
   background-image: url('../../../images/__background.jpg');
-  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover;
   z-index: 1;
 }
 

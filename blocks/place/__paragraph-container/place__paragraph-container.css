@@ -2,7 +2,7 @@
   grid-area: place__paragraph-container;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .place__paragraph-container {
     padding-left: 16px;
     padding-right: 16px;
