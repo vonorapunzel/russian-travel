@@ -5,7 +5,7 @@
   font-style: normal;
   display: grid;
   gap: 80px;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 1fr;
 }
 
 @media screen and (max-width: 768px) {
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 750px) {
   .places {
     padding-top: 64px;
     gap: 50px;

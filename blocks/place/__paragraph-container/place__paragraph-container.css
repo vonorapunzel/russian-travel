@@ -6,5 +6,6 @@
   .place__paragraph-container {
     padding-left: 16px;
     padding-right: 16px;
+    grid-column: 1/2;
   }
 }

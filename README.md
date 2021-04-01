@@ -6,3 +6,5 @@
 ### Ссылка на проек:
 https://vonorapunzel.github.io/russian-travel/index.html
 
+### Дальнейшие планы по проекту
+После обучения JS добавить проекту интерактивности.

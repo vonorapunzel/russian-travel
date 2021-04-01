@@ -7,5 +7,6 @@
   .place__image {
     padding-left: 0;
     padding-right: 0;
+    grid-column: 1/3;
   }
 }
