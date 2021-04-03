@@ -3,26 +3,32 @@
   grid-template-areas: 
     'place__title place__website'
     'place__image place__paragraph-container';
-  grid-template-columns: repeat(auto-fit, minmax(320px, max-content)) 484px;
+  grid-template-columns: repeat(auto-fit, minmax(460px, max-content)) 460px;
   row-gap: 48px;
   column-gap: 40px;
 }
 
+@media screen and (max-width: 1280px) {
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(400px, max-content) 400px);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: repeat(auto-fit, minmax(320px, max-content)) 440px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, max-content)) 320px;
     column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 866px) {
+@media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: repeat(auto-fit, minmax(320px, max-content)) 340px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, max-content)) 320px;
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 760px) {
   .place {
     grid-template-columns: 320px;
     grid-template-areas: 
